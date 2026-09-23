@@ -1,0 +1,37 @@
+`timescale 1ns/1ns
+module Fdiv_TB();
+
+reg	    clk;
+reg     rst;
+wire    o_clk;
+
+Fdiv dut(rst,clk,o_clk);
+     
+initial begin
+  
+    $dumpfile("dump.vcd");  
+    $dumpvars(1); 
+end	 
+
+initial begin 
+
+clk =1'b1;
+rst =1'b1;
+#10
+rst =1'b0;
+#10 
+rst =1'b1; 
+#500 
+#0 $finish;
+end 
+  	
+always #5 begin 
+    clk = ~clk; 
+end 
+
+  initial begin
+//請同學改成自己的路徑
+	$fsdbDumpfile("/home/110_course/IIC/C108110249/Desktop/Lab08/Fdiv_TB.fsdb");
+	$fsdbDumpvars(0,Fdiv_TB);
+end
+endmodule 

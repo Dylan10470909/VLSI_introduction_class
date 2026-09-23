@@ -1,0 +1,46 @@
+`timescale 1ns/1ns
+module mid_TB;
+reg	 [4:0]inA;
+reg	 [4:0]inB;
+reg	 [3:0]alu_out;
+reg	 [2:0]Opcode;
+
+mid U_AU(inA,inB,alu_out,Opcode);
+
+initial begin
+//給輸入輸出一個初始值，請觀察訊號0~10ns
+	inA = 0;
+	inB = 1;
+       
+       Opcode=3'b000;
+        #10
+	Opcode=3'b001;
+        #10
+       Opcode=3'b010;
+        #10
+	Opcode=3'b011;
+        #10 
+       Opcode=3'b100;
+        #10
+	Opcode=3'b101;
+        #10
+       Opcode=3'b110;
+        #10
+	Opcode=3'b111;
+        #10 
+        #50
+       $finish;
+
+end
+//根據訊號結果觀察此區的運算方式
+always #10 begin
+	inA	=	inA + 1;
+	inB	=	inB + 1;
+end
+
+initial begin
+//請同學改成自己的路徑
+	$fsdbDumpfile("/home/110_course/IIC/C108110249/Desktop/mid/mid_TB.fsdb");
+	$fsdbDumpvars(0,mid_TB);
+end
+endmodule

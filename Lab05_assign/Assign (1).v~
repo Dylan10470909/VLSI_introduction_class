@@ -1,0 +1,12 @@
+module Assign(inA,inB,inC,inD,select,out);
+input 	 	[3:0]	 inA,inB,inC,inD;
+input 	 	[2:0]   select;
+output	       [3:0]   out;
+
+assign out=(select== 2'b00) ?inA:
+           (select== 2'b01) ?inB:
+           (select== 2'b10) ?inC:  
+           inD; 
+end
+endmodule
+

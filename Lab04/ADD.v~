@@ -1,0 +1,11 @@
+module AU(inA,inB,out1,out2.out3);
+input 	 	[3:0]	inA;
+input 	 	[3:0]  inB;
+output	 	[3:0] out1;
+output	 	[3:0] out2;
+output	 	[3:0] out3;
+
+assign out1 = inA + inB;
+assign out2 = inA - inB;
+assign out3 = inA * inB;
+endmodule

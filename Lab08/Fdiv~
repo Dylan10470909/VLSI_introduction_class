@@ -1,0 +1,20 @@
+module Fdiv(cnt,rst,clk,o_clk);
+input 	 	reg cnt;
+input 	 	rst;
+input	 	clk;
+output    reg o_clk;
+
+always@(posedge clk or negedge rst)
+ begin
+   if(!rst)     cnt<=0;
+   else cnt=~clk;
+ end
+
+always@(posedge cnt or negedge rst)
+ begin
+   if(!rst)     o_clk<=0;
+   else o_clk=~cnt;
+ end
+
+
+endmodule

@@ -1,0 +1,20 @@
+module mid(inA,inB,alu_out,Opcode);
+input 	 	[4:0]	inA;
+input 	 	[4:0]  inB;
+
+
+output	 	reg[3:0] alu_out;
+input	 	[2:0] Opcode;
+
+
+always@(Opcode)begin
+         if(Opcode== 3'b000) alu_out=(inA*inB);
+          else if(Opcode== 3'b001) alu_out=(inA+inB);
+           else if(Opcode== 3'b010) alu_out=(~inB);  
+            else if(Opcode== 3'b011) alu_out=(~inA+3'b001);
+              else if(Opcode== 3'b100) alu_out=~(inA&inB);
+               else if(Opcode== 3'b101) alu_out=(inA|inB);
+                else if(Opcode== 3'b110) alu_out=(~(inA|inB));
+                   else if(Opcode== 3'b111) alu_out=(inA&inB);
+ end
+endmodule

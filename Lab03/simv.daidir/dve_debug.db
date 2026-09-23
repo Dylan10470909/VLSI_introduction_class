@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<opml version="1.0">
+	<head>
+		<title>VCS dump file for DVE debugging</title>
+		<vcsVersion>F-2011.12-SP1</vcsVersion>
+		<dateCreated>Tue Mar 15 15:59:58 2022</dateCreated>
+	</head>
+	<body>
+		<!-- VCS compile options -->
+		<vcsCompileOptions text="/usr/cad/synopsys/vcs/cur/linux/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags=--32 -Mcfl= -pipe -m32 -O -I/usr/cad/synopsys/vcs/cur/include  -Mldflags= -melf_i386 -m32  -Mout=simv -Mamsrun= -Mvcsaceobjs= -Mobjects= /usr/cad/synopsys/vcs/cur/linux/lib/libvirsim.so /usr/cad/synopsys/vcs/cur/linux/lib/librterrorinf.so /usr/cad/synopsys/vcs/cur/linux/lib/libsnpsmalloc.so /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX/pli.a  -Msaverestoreobj=/usr/cad/synopsys/vcs/cur/linux/lib/vcs_save_restore_new.o -Mcrt0= -Mcrtn= -Mcsrc= -Msyslibs=/usr/cad/synopsys/vcs/cur/linux/lib/ctype-stubs_32.a -ldl -lm -lm  -Xcbug=0x1 +vcsd +memcbk +v2k -v2005 -P /usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX/novas.tab -pp_used +vcsd +itf+/usr/cad/synopsys/vcs/cur/linux/lib/vcsdp.tab +cli+1 -debug=1 +memcbk +vpi -sverilog +vpi -gen_obj ADD_TB.v ADD.v "/>
+		<!-- File list for the whole design -->
+		<fileList>
+			<file fid="0" path="/home/110_course/IIC/C108110249/Desktop/Lab03/ADD_TB.v" />
+			<file fid="1" path="/home/110_course/IIC/C108110249/Desktop/Lab03/ADD.v" />
+		</fileList>
+		<!-- Include file list for the whole design -->
+		<includeFileList>
+		</includeFileList>
+		<!-- Encrypted codes list for the whole design -->
+		<encryptedCodesList>
+		</encryptedCodesList>
+		<!-- Inactive codes list for the whole design -->
+		<inactiveCodesList>
+		</inactiveCodesList>
+		<!-- Compile options UUM based -->
+		<langKeywords>
+			<svFiles fid="0-1" />
+		</langKeywords>
+		<!--  Case insensitive file list -->
+		<caseInsensitiveFiles fid="" />
+		<!-- Macro definition list for the whole design --> 
+		<macroDefinitionList>
+		</macroDefinitionList>
+		<!-- Macro value list for the whole design --> 
+		<macroValueList>
+		</macroValueList>
+	</body>
+</opml>

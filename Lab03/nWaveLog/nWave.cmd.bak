@@ -1,0 +1,45 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 \
+           {/home/110_course/IIC/C108110249/Desktop/Lab03/ADD_TB.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/ADD_TB"
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/ADD_TB/iA} \
+{/ADD_TB/iB} \
+{/ADD_TB/oSUM\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 2 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvGetSignalClose -win $_nWave1
+wvResizeWindow -win $_nWave1 59 237 1280 887
+wvSetCursor -win $_nWave1 2.267702 -snap {("G1" 2)}
+wvSetCursor -win $_nWave1 8.213075 -snap {("G1" 0)}
+wvZoom -win $_nWave1 9.341051 9.493798
+wvSetCursor -win $_nWave1 10.146377 -snap {("G1" 2)}
+wvSetCursor -win $_nWave1 10.054550 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 20.066529 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 20.015106 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 19.917769 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 19.857163 -snap {("G1" 1)}
+wvZoom -win $_nWave1 19.986639 19.992149
+wvSetCursor -win $_nWave1 20.724931 -snap {("G1" 2)}
+wvSetCursor -win $_nWave1 20.731359 -snap {("G1" 2)}
+wvSetCursor -win $_nWave1 20.756152 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 19.986639 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 19.993067 -snap {("G1" 1)}
+wvSetCursor -win $_nWave1 19.986639 -snap {("G1" 1)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 30.717355 -snap {("G2" 0)}

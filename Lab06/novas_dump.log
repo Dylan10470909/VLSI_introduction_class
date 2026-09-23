@@ -1,0 +1,148 @@
+Chronologic Simulation VCS Release F-2011.12-SP1
+Linux 2.6.18-404.el5 #1 SMP Tue Apr 7 12:42:54 EDT 2015 x86_64
+CPU cores: 24
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		65536 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked	32 kbytes
+maxproc			127791
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+REMOTEHOST=163.18.105.27
+MANPATH=/usr/cad/synopsys/synthesis/cur/doc/syn/man:/usr/cad/synopsys/synthesis/cur/doc/syn/man:/usr/cad/synopsys/synthesis/cur/doc/syn/man:/usr/cad/synopsys/synthesis/cur/doc/syn/man
+SSH_AGENT_PID=20932
+HOSTNAME=f453_sever
+UNAME=/bin/uname
+SCRNAME=vcs
+VCS_DEPTH=0
+DESKTOP_STARTUP_ID=
+SHELL=/bin/tcsh
+TERM=xterm
+HOST=f453_sever
+PERL5LIB=/lib/SAED32_28_EDK/saed_mc/lib
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/110_course/IIC/C108110249/.gtkrc-1.2-gnome2
+WINDOWID=52428880
+USER=C108110249
+GROUP=C108110249
+DEBUSSY_LIB=/usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX
+LS_COLORS=no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=00;32:*.cmd=00;32:*.exe=00;32:*.com=00;32:*.btm=00;32:*.bat=00;32:*.sh=00;32:*.csh=00;32:*.tar=00;31:*.tgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.bz=00;31:*.tz=00;31:*.rpm=00;31:*.cpio=00;31:*.jpg=00;35:*.gif=00;35:*.bmp=00;35:*.xbm=00;35:*.xpm=00;35:*.png=00;35:*.tif=00;35:
+LD_LIBRARY_PATH=/usr/cad/synopsys/vcs/cur/linux/lib:/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/:/usr/cad/spring_soft/verdi/cur/share/PLI/VCS/LINUX
+SCRIPT_NAME=vcs
+GNOME_KEYRING_SOCKET=/tmp/keyring-7NBCQ4/socket
+SSH_AUTH_SOCK=/tmp/ssh-Kjcus20868/agent.20868
+HOSTTYPE=x86_64-linux
+KDEDIR=/usr
+SESSION_MANAGER=local/f453_sever:/tmp/.ICE-unix/21004
+USERNAME=C108110249
+OVA_UUM=0
+DESKTOP_SESSION=default
+PATH=.:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/cad/synopsys/hercules/cur/bin/AMD.64:/usr/cad/synopsys/customdesigner/cur/bin:/lib/SAED32_28_EDK/saed_mc/bin:/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/cad/synopsys/vcs/cur/bin:/usr/cad/synopsys/vcs/cur/linux/bin:/usr/cad/synopsys/vcs/cur/linux/util:/usr/cad/synopsys/vcs/cur/linux/flexlm:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/cad/synopsys/hercules/cur/bin/AMD.64:/usr/cad/synopsys/customdesigner/cur/bin:/lib/SAED32_28_EDK/saed_mc/bin:/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/cad/synopsys/vcs/cur/bin:/usr/cad/synopsys/vcs/cur/linux/bin:/usr/cad/synopsys/vcs/cur/linux/util:/usr/cad/synopsys/vcs/cur/linux/flexlm:/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/X11R6/bin
+MAIL=/var/spool/mail/C108110249
+QT_IM_MODULE=scim
+GDM_XSERVER_LOCATION=xdmcp
+PWD=/bin/pwd
+INPUTRC=/etc/inputrc
+DEBUSSY_HOME=/usr/cad/synopsys/verdi/cur
+XMODIFIERS=@im=SCIM
+VCS_HOME=/usr/cad/synopsys/vcs/cur
+LANG=zh_TW.UTF-8
+KDE_IS_PRELINKED=1
+SYNTHESIS=/usr/cad/synopsys/synthesis/cur
+VMR_MODE_FLAG=32
+VCS_CC=gcc
+GDMSESSION=default
+LM_LICENSE_FILE=26585@lsncku:/usr/cad/synopsys/vcs/cur/flexlm//license.dat
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+VCS_ARG_ADDED_FOR_TMP=1
+SNPS_VCS_TMPDIR=/tmp/vcs_20220419073453_23199
+HOME=/home/110_course/IIC/C108110249
+SHLVL=3
+OSTYPE=linux
+GNOME_DESKTOP_SESSION_ID=Default
+VENDOR=unknown
+LOGNAME=C108110249
+MACHTYPE=x86_64
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-IyMG087f1U,guid=09306203abceedb66dae2700625e5e2b
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+SHLIB_PATH=/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/:/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX
+sysc_uni_pwd=/home/110_course/IIC/C108110249/Desktop/Lab06
+DISPLAY=163.18.105.27:0.0
+VCS_AMD_PURE32=1
+VCS_ARCH=linux
+SYN_MAN_DIR=/usr/cad/synopsys/synthesis/cur/doc/syn/man
+TOOL_HOME=/usr/cad/synopsys/vcs/cur/linux
+GTK_IM_MODULE=scim-bridge
+G_BROKEN_FILENAMES=1
+COLORTERM=gnome-terminal
+XAUTHORITY=/tmp/.gdmS6ASK1
+_=./simv
+VCS_PATHMAP_PRELOAD_DONE=1
+DVE=/usr/cad/synopsys/vcs/cur/gui/dve
+LC_ALL=C
+TCLLIBPATH=/tmp/auxx/tcllib/lib/tcl8.4
+SPECMAN_OUTPUT_TO_TTY=1
+Runtime command line arguments:
+argv[0]=simv
+argv[1]=+memcbk
+argv[2]=+v2k
+96 profile - 100
+          CPU/Mem usage: 0.030 sys,  0.330 user,  94.20M sys,  0.00M vm
+97 VC callback profile - scalar:0 vector:0
+98 Tue Apr 19 15:34:57 2022
+99 pliAppInit
+100 *Verdi3* : Enable Parallel Dumping.
+101 pliAppMiscSet: New Sim Round
+102 LIBSSCORE=found /usr/cad/spring_soft/verdi/cur/share/PLI/VCS/LINUX/libsscore_vcs201112.so through $LD_LIBRARY_PATH setting.
+103 argv[0]: /home/110_course/IIC/C108110249/Desktop/Lab06/DFF_TB.fsdb
+104 argv[0]: 0
+105 argv[1]: (handle)0xbca40b8 DFF_TB
+106 FSDB Dumper for VCS, Release Verdi3_2013.07, Linux, 07/04/2013
+107 (C) 1996 - 2013 by Synopsys, Inc.
+108 sps_call_fsdbDumpfile at 0 : DFF_TB.v(35)
+109 argv[0]: /home/110_course/IIC/C108110249/Desktop/Lab06/DFF_TB.fsdb
+110 *Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+111 *Verdi3* : Create FSDB file '/home/110_course/IIC/C108110249/Desktop/Lab06/DFF_TB.fsdb'
+112 sps_call_fsdbDumpvars at 0 : DFF_TB.v(36)
+113 argv[0]: 0
+114 argv[1]: (handle)0xbca40b0 DFF_TB
+115 *Verdi3* : Begin traversing the scope (DFF_TB), layer (0).
+116 *Verdi3* : End of traversing.
+117 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.030 sys,  0.340 user,  236.08M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  3.29M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  3.29M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  3.29M sys,  0.00M vm
+
+          Count usage: 10 var,  6 idcode,  6 callback
+                 incr: 10 var,  6 idcode,  6 callback
+                 accu: 10 var,  6 idcode,  6 callback
+            accu incr: 10 var,  6 idcode,  6 callback
+118 VC callback profile - scalar:0 vector:0
+119 Tue Apr 19 15:34:57 2022
+120 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.030 sys,  0.340 user,  237.13M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  4.35M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 10 var,  6 idcode,  6 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 10 var,  6 idcode,  6 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+121 VC callback profile - scalar:6 vector:4
+122 Tue Apr 19 15:34:57 2022
+123 End of simulation at 400
+124 VC callback profile - scalar:28 vector:30
+125 Tue Apr 19 15:34:57 2022
+126 Parallel profile    -  Flush:2 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+127 SimExit
+128 Sim process exit
