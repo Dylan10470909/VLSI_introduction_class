@@ -17,3 +17,8 @@ ucli.key
 # 編輯器暫存檔
 *~
 *.swp
+
+#PDF PPT
+*.pptx
+*.ppt
+遠端教學(Design Environment).pdf
