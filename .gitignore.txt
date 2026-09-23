@@ -1,36 +1,19 @@
-# ====================================
-# VCS Simulation & Compilation Outputs
-# ====================================
+# 模擬執行檔與編譯目錄
 simv
 simv.daidir/
 csrc/
 *.o
 *.a
-*.so
-ucli.key
 
-# ====================================
-# Verdi / nWave Waveforms & Logs
-# ====================================
+# Verdi / nWave 產生之暫存檔與波形檔
 *.fsdb
 *.vcd
-*.vpd
 novas.rc
 novas.conf
 novas_dump.log
 nWaveLog/
-*.log
+ucli.key
 
-# ====================================
-# Editor Backup & Temp Files
-# ====================================
+# 編輯器暫存檔
 *~
 *.swp
-*.bak
-
-# ====================================
-# OS & Device Specific
-# ====================================
-.DS_Store
-Thumbs.db
-*.HEIC
